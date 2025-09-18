@@ -69,7 +69,39 @@ it counts the number of times a number is repaeated in the list
 
 
 6]
+b=[3,3,3,4,2,8,4,9,6,4,3,3,4]
+b.sort()
+print(b)
+
+
+
+7]
+b=[3,3,3,4,2,8,4,9,6,4,3,3,4]
+b.sort(reverse= True)
+print(b)
+
+
+
+8]
+abc= 'i am a girl'
+stuff = abc.split()
+print(stuff)
+
+o/p 
+['i', 'am', 'a', 'girl']
+
+
+9]
 a=[1,2,3,3]
 b=[3,3,3,3,3,4]
 b.remove(3)
 print(b)
+
+
+10]
+fhand= open('mbox-short.txt')
+for line in fhand:
+    line= line.rstrip()
+    if not line .startswith('from '):continue
+    word= line.split()
+    print(word(21))
